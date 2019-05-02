@@ -33,7 +33,8 @@ JavaProject.iml
 *.sublime-project
 *.sublime-workspace
 nbproject
-Thumbs.db
+Thumbs.d
+out
 
 # Komodo
 .komodotools
