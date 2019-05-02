@@ -1,3 +1,6 @@
+/*Write a program which accepts a number as input and check whether the given number is
+palindrome or not If it is a palindrome */
+
 package com.stackroute.tdd;
 
 import java.util.Scanner;

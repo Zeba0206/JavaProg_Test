@@ -19,37 +19,37 @@ public class PalindromeTesterClassTest {
     }
 
     @Test
-    public void shouldRecognizeNull() {
+    public void should_Recognize_Null() {
         assertEquals(false, PalindromeTesterClass.isPalindrome(null));
     }
 
     @Test
-    public void shouldRecognizeEmptyString() {
+    public void should_Recognize_EmptyString() {
         assertEquals(true, PalindromeTesterClass.isPalindrome(""));
     }
 
     @Test
-    public void shouldRecognizeOneCharacterPalindrome() {
+    public void should_Recognize_OneCharacter_Palindrome() {
         assertEquals(true, PalindromeTesterClass.isPalindrome("a"));
     }
 
     @Test
-    public void shouldRecognizeTwoCharacterPalindrome() {
+    public void should_Recognize_TwoCharacterPalindrome() {
         assertEquals(true, PalindromeTesterClass.isPalindrome("aa"));
     }
 
     @Test
-    public void shouldRecognizeTwoCharacterNonPalindrome() {
+    public void should_Recognize_TwoCharacterNonPalindrome() {
         assertEquals(false, PalindromeTesterClass.isPalindrome("ab"));
     }
 
     @Test
-    public void shouldRecognizePalindrome() {
+    public void should_Recognize_Palindrome() {
         assertEquals(true, PalindromeTesterClass.isPalindrome("amanaplanacanalpanama"));
     }
 
     @Test
-    public void shouldRecognizeNonPalindrome() {
+    public void should_Recognize_NonPalindrome() {
         assertEquals(false, PalindromeTesterClass.isPalindrome("noPalindrome"));
     }
 
