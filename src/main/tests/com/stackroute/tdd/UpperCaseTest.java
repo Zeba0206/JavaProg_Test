@@ -27,7 +27,11 @@ public class UpperCaseTest {
         assertEquals("zeba" , res);
     }
 
+    @Test
     public void checkNull(){
+        Boolean r3=s.checkNull();
+        assertEquals(true,r3);
     }
+
 
 }

@@ -1,4 +1,5 @@
-package com.stackroute.tdd;
+package com.stackroute.tdd;/*Write a program which accepts a number from user as input (set the limit say 1 - 50 or 1 -
+        100) User should guess until the the target number is guessed correctly.*/
 
 public class GuessingNumber {
     private int guessedNumber;          //input variable
