@@ -34,7 +34,7 @@ public class ReverseStringTest {
 
    }
     @Test
-    public void shouldRecognizeEmptyString() {
+    public void should_Recognize_Empty_String() {
         Boolean d = space.checkSpaces();
         assertEquals(true, d);
     }
